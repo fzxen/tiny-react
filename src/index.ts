@@ -1,3 +1,3 @@
-const a = 123
+import { createElement } from "./createElement";
 
-console.log(a);
+export { createElement };

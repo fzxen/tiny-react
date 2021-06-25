@@ -6,7 +6,7 @@ export default [
     plugins: [ts()],
     output: {
       file: "./dist/react.js",
-      name: "react",
+      name: "React",
       format: "iife"
     },
   }
