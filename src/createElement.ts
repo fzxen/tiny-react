@@ -2,7 +2,7 @@ export interface ReactElement {
   type: string;
   props: {
     [prop: string]: any;
-    children: Array<ReactElement | string>;
+    children: Array<ReactElement>;
   };
 }
 
