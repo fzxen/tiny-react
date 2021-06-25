@@ -18,7 +18,12 @@
           "div",
           { id: "foo" },
           React.createElement("a", null, "bar"),
-          React.createElement("b")
+          React.createElement(
+            "ul",
+            null,
+            React.createElement("li", null, "1"),
+            React.createElement("li", null, "2")
+          )
         ),
         document.querySelector("#app")
       );
