@@ -6,6 +6,14 @@ export interface ReactElement {
   };
 }
 
+/* 
+createElement(
+  "ul",
+  null,
+  React.createElement("li", null, "1"),
+  React.createElement("li", null, "2")
+)
+*/
 export function createElement(
   type: string,
   props: ReactElement["props"] | null = null,
